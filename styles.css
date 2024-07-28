@@ -2,12 +2,14 @@ body {
     font-family: 'Roboto';
     background-color: #062239;
 }
+
 .container {
     width:1194px;
     margin: 100px 0px 319px 0px;
     margin: 100px auto 319px auto;
 
 }
+
 .title {
     font-size: 40px;
     color: #FFFFFF;
@@ -16,6 +18,7 @@ body {
     line-height: 46.88px;
     margin-bottom: 70px;
 }
+
 .card {
     width: 358px;
     height: 543px;
@@ -24,17 +27,21 @@ body {
     border-radius: 20px;
 
 }
+
 .card:not(:last-child) {
     margin-right: 30px;
 }
+
 img {
     width: 298px;
     height: 200px;
     border-radius: 20px;
 }
+
 .card__image {
     padding: 30px;
 }
+
 .card__title {
     line-height: 26px;
     padding: 0 40px 0 40px;
@@ -42,6 +49,7 @@ img {
     font-weight: 600;
     color: #062239;
 }
+
 .card__description {
     padding: 15px 40px 40px 40px;
 }
