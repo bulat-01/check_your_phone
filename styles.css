@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    width:1194px;
+    max-width:1194px;
     margin: 100px auto 319px auto;
 
 }
@@ -17,11 +17,14 @@ body {
     line-height: 46.88px;
     margin-bottom: 70px;
 }
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
 
+}
 .card {
     width: 358px;
     height: 543px;
-    display: inline-block;
     background-color: #FFFFFF;
     border-radius: 20px;
 
@@ -30,7 +33,23 @@ body {
 .card:not(:last-child) {
     margin-right: 30px;
 }
+@media (max-width:1194px) {
+    .container{
+        max-width: 700;
+    }
+    .card:first-child {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:792px) {
+    .container{
+        max-width: 425px;
+    }
 
+    .card:nth-child(2) {
+        margin-bottom: 30px;
+    }
+}
 img {
     width: 298px;
     height: 200px;
